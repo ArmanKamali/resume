@@ -1,0 +1,42 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.App {
+    text-align: center;
+}
+
+p {
+    width: 80vw;
+}
+
+.navigation {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    z-index: 100;
+}
+
+.push {
+    margin-left: auto;
+}
+
+.navigation>div {
+    color: White;
+    padding: 10px;
+}
+
+.navigation img {
+    max-width: 30px;
+}
+
+#tsparticles {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+}

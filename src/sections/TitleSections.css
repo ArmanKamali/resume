@@ -1,0 +1,18 @@
+.first {
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(146, 146, 223)
+}
+
+.second {
+    flex-direction: column;
+    justify-content: start;
+    color: white;
+    text-align: left;
+    background: rgba(0, 100, 250);
+}
+
+.third {
+    flex-direction: column;
+    background: rgba(146, 146, 223)
+}

@@ -1,0 +1,88 @@
+{
+    "title": "Hello i'm Arman!",
+    "subtitle": "Full Stack Dev | Open-Source Enthusiast | Python Programmer",
+    "links": {
+        "github": "https://github.com/ArmanKamali",
+        "stackoverflow": "https://stackoverflow.com/story/armanamirkamali",
+        "linkedin": "https://www.linkedin.com/in/arman-amirkamali"
+    },
+    "sections": [{
+            "title": "About Me",
+            "items": [{
+                    "type": "p",
+                    "content": "Full stack site developer"
+                },
+                {
+                    "type": "p",
+                    "content": "I have about 5 years site developing experience."
+                },
+                {
+                    "type": "p",
+                    "content": "CEO of markgold.ir and Atlasbentglass.com and ready to develop my new sites inhonar.com and inhonar.ir"
+                }
+            ]
+        },
+        {
+            "title": "Skills",
+            "items": [{
+                    "type": "card",
+                    "content": {
+                        "image": "/images/react.png",
+                        "title": "React"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "/images/jquery.png",
+                        "title": "Jquery"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "/images/js.png",
+                        "title": "JavaScript"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "/images/python.png",
+                        "title": "Python"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "/images/php.png",
+                        "title": "PHP"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "/images/htmlcss.png",
+                        "title": "Html & Css"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "/images/mysql.png",
+                        "title": "MySql"
+                    }
+                }
+            ]
+        }
+    ],
+    "icons": {
+        "down": "images/down.png",
+        "bubble": "images/magic-ball.png",
+        "magic": "images/magic.png",
+        "up": "images/up.png"
+    },
+
+    "particles": ["circle", "line", "edge", "triangle", "polygon", "star"]
+
+}
