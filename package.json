@@ -2,6 +2,7 @@
   "name": "resume2",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://armankamali.github.io/resume",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -15,6 +16,8 @@
     "react-tsparticles": "^1.17.8"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy" : "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

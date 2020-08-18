@@ -27,49 +27,49 @@
             "items": [{
                     "type": "card",
                     "content": {
-                        "image": "/images/react.png",
+                        "image": "images/react.png",
                         "title": "React"
                     }
                 },
                 {
                     "type": "card",
                     "content": {
-                        "image": "/images/jquery.png",
+                        "image": "images/jquery.png",
                         "title": "Jquery"
                     }
                 },
                 {
                     "type": "card",
                     "content": {
-                        "image": "/images/js.png",
+                        "image": "images/js.png",
                         "title": "JavaScript"
                     }
                 },
                 {
                     "type": "card",
                     "content": {
-                        "image": "/images/python.png",
+                        "image": "images/python.png",
                         "title": "Python"
                     }
                 },
                 {
                     "type": "card",
                     "content": {
-                        "image": "/images/php.png",
+                        "image": "images/php.png",
                         "title": "PHP"
                     }
                 },
                 {
                     "type": "card",
                     "content": {
-                        "image": "/images/htmlcss.png",
+                        "image": "images/htmlcss.png",
                         "title": "Html & Css"
                     }
                 },
                 {
                     "type": "card",
                     "content": {
-                        "image": "/images/mysql.png",
+                        "image": "images/mysql.png",
                         "title": "MySql"
                     }
                 }
