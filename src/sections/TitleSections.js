@@ -51,7 +51,7 @@ class TitleSections extends Component {
         </Fullpage>
        <Link activeClass="active" to="about" spy={true} smooth={true} offset={0} duration={500} onSetActive={this.handleSetActive}>
         <DownIcon
-          icon={data.icons.down}
+          icon={process.env.PUBLIC_URL + data.icons.down}
         />
            </Link>
         <Element name="about" className="element">

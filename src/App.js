@@ -64,7 +64,7 @@ class App extends Component {
               node.setState({ particle: style })
             }}
           >
-            <img src={data.icons.bubble} />
+            <img src={process.env.PUBLIC_URL +  data.icons.bubble} alt="bubble"/>
           </div>
           <div
             onClick={() => {
@@ -73,7 +73,7 @@ class App extends Component {
               this.changebackground(this.skillRef)
             }}
           >
-            <img src={data.icons.magic} />
+            <img src={process.env.PUBLIC_URL + data.icons.magic} />
           </div>
           <div className="push"
             onMouseOver={() => {
@@ -120,14 +120,14 @@ class App extends Component {
         <Element name="skill" className="element">
         <Link activeClass="active" to="top" spy={true} smooth={true} offset={0} duration={500} onSetActive={this.handleSetActive}>
         <UpIcon
-          icon={data.icons.up}
+          icon={process.env.PUBLIC_URL + data.icons.up}
         />
         </Link>
         </Element>
         <SkillsSection ref={this.skillRef} />
         <Link activeClass="active" to="top" spy={true} smooth={true} offset={0} duration={500} onSetActive={this.handleSetActive}>
         <UpIcon
-          icon={data.icons.up}
+          icon={process.env.PUBLIC_URL + data.icons.up}
         />
         </Link>
       </div>

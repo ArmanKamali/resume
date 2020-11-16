@@ -7,7 +7,7 @@ class SkillCard extends Component {
         return (
             <div className="card">
                 <div className="image-wrapper">
-                    <img src={skill.content.image} />
+                    <img src={process.env.PUBLIC_URL + skill.content.image} />
                 </div>
                 <div className="container">
                     <h4>{skill.content.title}</h4>

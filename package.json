@@ -1,41 +1,45 @@
 {
-  "name": "resume2",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "https://armankamali.github.io/resume",
-  "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "gh-pages": "^3.1.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3",
-    "react-scroll": "^1.8.1",
-    "react-social-icons": "^4.1.0",
-    "react-tsparticles": "^1.17.8"
-  },
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy" : "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+    "name": "resume2",
+    "version": "0.1.0",
+    "private": true,
+    "homepage": "https://armankamali.github.io/resume",
+    "dependencies": {
+        "@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.3.2",
+        "@testing-library/user-event": "^7.1.2",
+        "gh-pages": "^3.1.0",
+        "mobx": "^6.0.4",
+        "mobx-react": "^7.0.5",
+        "react": "^16.13.1",
+        "react-app-rewire-mobx": "^1.0.9",
+        "react-app-rewired": "1.6.2",
+        "react-dom": "^16.13.1",
+        "react-scripts": "1.1.4",
+        "react-scroll": "^1.8.1",
+        "react-social-icons": "^4.1.0",
+        "react-tsparticles": "^1.17.8"
+    },
+    "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
+        "start": "react-app-rewired start",
+        "build": "react-app-rewired build",
+        "test": "react-app-rewired test",
+        "eject": "react-app-rewired eject"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
 }
